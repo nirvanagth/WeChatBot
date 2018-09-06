@@ -9,7 +9,7 @@ import os
 
 
 replied = []
-
+# TODO add voice message reply
 # itchat.send('Hello, filehelper', toUserName='filehelper')
 @itchat.msg_register('Text')
 def text_reply(msg):
